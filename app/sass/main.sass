@@ -331,6 +331,14 @@ h2
 .header-nav
   box-shadow: inset 0 2px 8px 0 rgba(0, 3, 6, 0.34)
   background-image: linear-gradient(to top, #012864, #045091)
+  .dropdown-menu-wrapper
+    position: absolute
+    left: 0
+    top: 100%
+    z-index: 2
+    background: #fff
+    margin: 0
+    display: none
 
 .dropdown-item__button
   padding: 25px 36px 23px 34px
@@ -1045,6 +1053,7 @@ footer
       .icon-arrow
         width: 10px
 
+
     .block-hidden
       padding: 15px
 
@@ -1168,6 +1177,7 @@ footer
   .icon-arrow
     transition: .3s ease
     width: 14px
+    min-width: 14px
 
 .breadcrumb
   display: flex

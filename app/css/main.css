@@ -407,6 +407,14 @@ h2 {
           box-shadow: inset 0 2px 8px 0 rgba(0, 3, 6, 0.34);
   background-image: -webkit-gradient(linear, left bottom, left top, from(#012864), to(#045091));
   background-image: linear-gradient(to top, #012864, #045091); }
+  .header-nav .dropdown-menu-wrapper {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+    background: #fff;
+    margin: 0;
+    display: none; }
 
 .dropdown-item__button {
   padding: 25px 36px 23px 34px;
@@ -1297,7 +1305,8 @@ footer h3 {
   .dropdown-menu__title .icon-arrow {
     -webkit-transition: .3s ease;
     transition: .3s ease;
-    width: 14px; }
+    width: 14px;
+    min-width: 14px; }
 
 .breadcrumb {
   display: -webkit-box;
@@ -3311,7 +3320,11 @@ blockquote {
   .tabs__caption li {
     margin: 0 20px 0 0; }
   .tabs__content ul {
-    margin: 0 0 20px; } }
+    margin: 0 0 20px; }
+  .dropdown-menu__title {
+    padding: 18px 15px; }
+  .block-hidden {
+    padding: 5px 15px 18px; } }
 
 @media only screen and (max-width: 991px) {
   header .schedule {
